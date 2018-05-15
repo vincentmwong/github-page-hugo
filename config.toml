@@ -1,4 +1,4 @@
-baseURL = "http://example.org/"
+baseURL = "http://www.vmwong.net"
 languageCode = "en-us"
 title = "Vincent Wong"
 theme = "minimo"
@@ -22,6 +22,8 @@ enableEmoji = true
 # Missing translations will default to this content language
 defaultContentLanguage = "en"
 
+sectionPagesMenu = "mainmenu"
+
 [params.info]
 description = "Complex Systems Researcher"
 title404 = "Nothing's here!"
@@ -34,7 +36,7 @@ gopher = "" # used in 404 template ( Generator: https://gopherize.me )
 
 [params.copyright]
 prefix = ""
-holder = "MunifTanjim"
+holder = "Vincent Wong • Powered by <a href='https://themes.gohugo.io/minimo/'>Minimo</a>, by Munif Tanjim"
 startYear = "2017"
 suffix = ""
 
@@ -53,7 +55,7 @@ hideMainMenu = false
 enable = true
 
 [params.widgets]
-homepage = ["recent_posts"]
+homepage = []
 sidebar = ["about"]
 footer = ["social_menu"]
 
@@ -70,13 +72,13 @@ page = "" # Twitter page username
 titleSeparator = "•"
 
 [params.social]
-codepen = "MunifTanjim"
+codepen = ""
 email = "vmwong1@gmail.com"
+linkedin = "vincentmwong"
 facebook = ""
 github = "vincentmwong"
 gitlab = ""
 instagram = ""
-linkedin = "vincentmwong"
 twitter = ""
 telegram = ""
 google_scholar = ""
@@ -103,11 +105,36 @@ tag = "tags"
 [permalinks]
 page = "/:slug/"
 
-[[menu.main]]
-name = "Main"
-weight = -10
-identifier = "main"
-url = "https://github.com/MunifTanjim/minimo"
+[menu]
+    [[menu.main]]
+    name = "Main"
+    weight = -10
+    identifier = "main"
+    url = "/"
+
+    [[menu.main]]
+    name = "Projects"
+    weight = -8
+    identifier = "projects"
+    url = "/projects"
+
+    [[menu.main]]
+    name = "Publications"
+    weight = -9
+    identifier = "publications"
+    url = "/publications"
+
+    [[menu.main]]
+    name = "Resume"
+    weight = -7
+    identifier = "resume"
+    url = "/resume"
+
+    [[menu.main]]
+    name = "Music"
+    weight = -6
+    identifier = "music"
+    url = "/music"
 
 [blackfriday]
 hrefTargetBlank = true
