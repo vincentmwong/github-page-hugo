@@ -56,7 +56,7 @@ enable = true
 
 [params.widgets]
 homepage = []
-sidebar = ["about"]
+sidebar = ["about","taxonomy_cloud","recent_posts"]
 footer = ["social_menu"]
 
 [params.opengraph.facebook]
@@ -114,21 +114,21 @@ page = "/:slug/"
 
     [[menu.main]]
     name = "Projects"
-    weight = -8
+    weight = -9
     identifier = "projects"
     url = "/projects"
 
     [[menu.main]]
     name = "Publications"
-    weight = -9
+    weight = -8
     identifier = "publications"
-    url = "/publications"
+    url = "/publications/publications"
 
     [[menu.main]]
     name = "Resume"
     weight = -7
     identifier = "resume"
-    url = "/resume"
+    url = "/resume/resume"
 
     [[menu.main]]
     name = "Music"
