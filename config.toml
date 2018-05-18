@@ -128,7 +128,7 @@ page = "/:slug/"
     name = "Resume"
     weight = -7
     identifier = "resume"
-    url = "/resume/resume"
+    url = "WongCV.pdf"#"/resume/resume"
 
     [[menu.main]]
     name = "Music"
