@@ -30,22 +30,22 @@ theme = "hugo-sustain"
     name = "Projects"
     weight = 9
     identifier = "projects"
-    url = "/projects"
+    url = "/projects/"
 
     [[menu.main]]
     name = "Publications"
     weight = 8
     identifier = "publications"
-    url = "/publications/publications"
+    url = "/publications/publications/"
 
     [[menu.main]]
     name = "Resume"
     weight = 7
     identifier = "resume"
-    url = "wong_cv.pdf"#"/resume/resume"
+    url = "/wong_cv.pdf/"
 
     [[menu.main]]
     name = "Music"
     weight = 6
     identifier = "music"
-    url = "/music"
+    url = "/music/"

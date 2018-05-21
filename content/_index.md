@@ -5,8 +5,6 @@ draft: false
 menu: "mainmenu"
 ---
 
-I'm a PhD student pursuing a dual degree in Informatics (Complex Systems) and Cognitive Science, and a fellow of the <a href="https://cns-nrt.indiana.edu">NSF Research Traineeship</a>. My research focuses on societal 
+I'm <strong>Vincent Wong</strong>, a PhD student in Informatics (Complex Systems) and Cognitive Science, and a fellow of the <a href="https://cns-nrt.indiana.edu" style="color:rgb(69, 102, 155)">NSF Research Traineeship</a>.
 
-[Picture of a network here]
-
-Society is the daily motion of every single human life playing out in a symphony of voices. Cities breathe. [MORE EXAMPLES]. My research focuses on understanding how this larger-scale social behavior can arise out of the dynamic psychology of a single person. 
+My research focuses on understanding how this larger-scale social behavior can arise out of the dynamic psychology of a single person. 
