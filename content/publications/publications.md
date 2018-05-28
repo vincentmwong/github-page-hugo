@@ -1,5 +1,6 @@
 ---
 title: "Publications"
+draft: false
 ---
 
 1. Wong V, Cooney D, Bar-Yam Y. Beyond Contact Tracing: Community-Based Early Detection for Ebola Response. PLOS Currents Outbreaks. 2016 May 19. Edition 1.

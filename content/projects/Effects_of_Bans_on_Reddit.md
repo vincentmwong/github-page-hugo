@@ -1,7 +1,7 @@
 ---
 title: "Effects of Banning Content on the Structure of Online Hate Communities"
 date: 2018-05-19T23:25:35-04:00
-draft: true
+draft: false
 ---
 
 ## Does banning stuff work?
